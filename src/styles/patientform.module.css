@@ -1,0 +1,47 @@
+*{
+    font-family: sans-serif;
+}
+.mainContainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    height: 10%;
+    width: 50%;
+    font-size: 2rem;
+    font-weight: 700;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.formWrapper{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 70%;
+    width: 50%;
+}
+.patientForm{
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.patientForm input{
+    width: 99%;
+    height: 8%;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(204, 204, 204);
+    border: none;
+    outline: none;
+}
+.submit:hover{
+    background-color: black;
+    color: white;
+}
