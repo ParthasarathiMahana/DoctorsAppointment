@@ -1,0 +1,35 @@
+.mainContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+.messageContainer{
+    height: 15%;
+    width: 70%;
+    background-color: rgba(0, 128, 0, 0.349);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: rgb(0, 63, 0);
+    margin-bottom: 1rem;
+}
+.homeBtn{
+    width: 10%;
+    height: 7%;
+    margin-bottom: 1rem;
+}
+.homeBtn button{
+    height: 100%;
+    width: 100%;
+    font-size: 0.8rem;
+    border: none;
+    font-weight: 700;
+}
+.homeBtn button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

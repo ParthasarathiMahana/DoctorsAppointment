@@ -1,0 +1,54 @@
+.mainContainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.doctDetails{
+    height: 15%;
+    width: 60%;
+    display: flex;
+    margin-bottom: 0.5rem;
+    background-color: rgba(63, 63, 63, 0.397);
+}
+.nameAndExp{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Exp{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rating{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.appointmentBtn{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.appointmentBtn button{
+    height: 50%;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border: none;
+}
+.appointmentBtn button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
